@@ -8,3 +8,4 @@ A simple travel journal page displaying visited countries with images, location 
 - Tailwind CSS  
 - React Icons  
 - JSX
+## demo--> https://react-practice-gup4.vercel.app/ 
