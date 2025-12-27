@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  padding: 16px;
+}
+
+/* Responsive grid */
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+   margin-top: 60px;
+}
+
+/* Responsive buttons */
+button {
+  aspect-ratio: 1 / 1; /* keeps square shape */
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.off 
+{
+  opacity: 0.6;
+ 
+  transform: scale(0.8);
+}
+.on 
+{
+  opacity: 1;
+  
+  transform: scale(1);
+}
+
+/* Icon */
+.icon {
+  font-size: clamp(20px, 4vw, 30px);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 12px;
+
+}
+
+/* Themes */
+.dark {
+  background-color: #1C1917;
+}
+
+.light {
+  background-color: white;
+}
+
+.final
+{
+  background-color: #FF5733;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+.final-cont
+{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 12px;
+}
